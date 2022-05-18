@@ -4,7 +4,7 @@ import styles from "../styles/DishCard.module.css";
 const DishCard = () => {
     return (
         <div className={styles.container}>
-            <Image src='/img/dish1.png' alt='' width='500' height='500'/>
+            <Image src='/img/dish3.png' alt='' width='500' height='500'/>
             <h1 className={styles.title}>LLANERA MEAT</h1>
             <span className={styles.price}>$19.90</span>
             <p className={styles.desc}>
