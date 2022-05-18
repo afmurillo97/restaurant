@@ -1,10 +1,11 @@
 import styles from '../styles/Footer.module.css';
+import Image from 'next/image'
 
 const Footer = () => {
     return (
         <div className={styles.container}>
             <div className={styles.item}>
-            <Image src='/img/bg.png' alt='' layout='fill' />
+                <Image src='/img/bg.png' layout='fill' alt='' />
             </div>
             <div className={styles.item}>
                 <div className={styles.card}>
@@ -13,7 +14,7 @@ const Footer = () => {
                     </h2>
                 </div>
                 <div className={styles.card}>
-                    <h1>FIND OUR RESTAURANTS</h1>
+                    <h1 className={styles.title}>FIND OUR RESTAURANTS</h1>
                     <p className={styles.text}>
                         1358 R. Don Road #296.
                         <br /> Los Angeles, 36427
