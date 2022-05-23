@@ -19,6 +19,7 @@
     flex-wrap: wrap;
 }
 
+/* for mobile devices */
 @media screen and (max-width:480px) {
     .title{
         text-align: center;
@@ -26,6 +27,32 @@
 
     .desc{
         width: 90%;
+        text-align: center;
+    }
+}
+
+/* for ipads and tablets */
+@media screen and (max-width:768px) {
+    
+    .desc{
+        width: 90%;
+        text-align: center;
+    }
+
+    .wrapper{
+        text-align: center;
+    }
+}
+
+/* for small screens like laptops */
+@media screen and (max-width:1024px) {
+
+    .desc{
+        width: 90%;
+        text-align: center;
+    }
+
+    .wrapper{
         text-align: center;
     }
 }

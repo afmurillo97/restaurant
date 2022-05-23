@@ -34,6 +34,7 @@
     color: rgb(211, 211, 211);
 }
 
+/* for mobile devices */
 @media screen and (max-width:480px) {
     .container{
         height: auto;
@@ -56,3 +57,35 @@
         font-size: 20px;
     }
 }
+
+/* for ipads and tablets */
+@media screen and (max-width:768px) {
+    .container{
+        height: auto;
+        text-align: center;
+    }
+
+    .item:first-child{
+        display: none;
+    }
+
+    .item{
+        flex-direction: column;
+    }
+
+    .title{
+        font-size: 30px;
+    }
+
+    .text{
+        font-size: 20px;
+    }
+}
+
+/* for small screens like laptops */
+@media screen and (max-width:1024px) {
+    .container{
+        height: auto;
+    }
+}
+

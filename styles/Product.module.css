@@ -96,7 +96,7 @@
     cursor: pointer;
 }
 
-
+/* for mobile devices */
 @media screen and (max-width:480px) {
    .container{
        height: auto;
@@ -140,3 +140,50 @@
    
 }
 
+/* for ipads and tablets */
+@media screen and (max-width:768px) {
+    .container{
+        height: auto;
+        text-align: center;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .imgContainer{
+        width: 70vw;
+        height: 70vw;
+    }
+
+    .sizes{
+        width: 100%;
+        padding: 0px 50px;
+    }
+
+   .ingredients{
+        justify-content: center;
+    }
+}
+
+/* for small screens like laptops */
+@media screen and (max-width:1024px) {
+    .container{
+        height: auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .imgContainer{
+        width: 30vw;
+        height: 30vw;
+        margin-top: 70px;
+    }
+
+    .sizes{
+        width: 100%;
+        padding: 0px 50px;
+    }
+
+   .ingredients{
+        justify-content: center;
+    }
+}
