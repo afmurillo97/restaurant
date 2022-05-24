@@ -26,7 +26,7 @@ const Footer = () => {
                         <br /> (301) 413-8940
                     </p>
                     <p className={styles.text}>
-                        3456 Dalla's Airport #789.
+                        3456 Dallas Airport #789.
                         <br /> Dallas, 36427
                         <br /> (301) 413-8941
                     </p>
