@@ -75,6 +75,10 @@
     color: #d1411e;
 }
 
+.cart{
+    cursor: pointer;
+}
+
 /* for mobile devices*/
 @media screen and (max-width:480px) {
     .item:nth-child(2) {
