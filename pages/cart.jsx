@@ -136,7 +136,6 @@ const Cart = () => {
                             "client-id": "test",
                             components: "buttons",
                             currency: "USD",
-                            // this part is pending
                             "disable-funding": "credit,card",
                         }}
                     >
