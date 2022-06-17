@@ -57,7 +57,8 @@
 
 .listItem{
    margin: 20px;
-   font-weight: 500; 
+   font-weight: 500;
+   cursor: pointer; 
 }
 
 .counter{
