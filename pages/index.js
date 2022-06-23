@@ -4,9 +4,12 @@ import Featured from "../components/Featured";
 import styles from "../styles/Home.module.css";
 import DishesList from "../components/DishesList";
 import axios from "axios";
+import Add from "../components/Add";
+import { useState } from "react";
+import AddButton from "../components/AddButton";
 
 export default function Home({ dishesList, admin }) {
-  const [close, setClose] = useSate(true);
+  const [close, setClose] = useState(true);
   return (
     <div className={styles.container}>
       <Head>
@@ -15,8 +18,9 @@ export default function Home({ dishesList, admin }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Featured />
-      {admin && <span>Hello</span>}
+      {admin && <AddButton setClose={setClose} />}
       <DishesList dishesList={dishesList} />
+      {!close && <Add setClose={setClose} />}
     </div>
   );
 }
